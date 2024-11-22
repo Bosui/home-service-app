@@ -1,0 +1,44 @@
+.logo {
+  height: 6rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.react {
+  filter: drop-shadow(0 0 2rem #61dafb);
+}
+
+.card {
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: #f3f3f3;
+  text-align: center;
+
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin-block-start: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: #0078d4;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #005a9e;
+    }
+  }
+}
+
+.read-the-docs {
+  margin-block-start: 1rem;
+  font-size: 0.85rem;
+  color: #666;
+  text-align: center;
+}
